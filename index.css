@@ -1,0 +1,65 @@
+*{
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #0f4c5c;
+     margin: auto;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+     
+}
+
+#pad-bank{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+}
+
+#drum-machine{
+    background-color:#d1d5db; 
+    width: 400px;
+}
+
+.drum-pad{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 25px 25px;
+}
+
+button:hover{
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}
+
+#display{
+  background-color: #ffd903;
+  padding: 18px 1px;
+  width: 100px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
